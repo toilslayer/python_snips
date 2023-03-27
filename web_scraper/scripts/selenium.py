@@ -13,4 +13,4 @@ def selenium_scrape(url):
     chromeOptions.add_argument("disable-infobars")
     driver = webdriver.Chrome(options=chromeOptions)
     driver.get(url)
-    print(url)
+    print(url) 
