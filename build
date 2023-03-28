@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
+rm -rF .venv
 mkdir .venv
 python3 -m venv .venv
-
